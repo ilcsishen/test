@@ -1,0 +1,52 @@
+.footer{
+    width: 100%;height: auto;
+    background-color: #B9E2DC;
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    margin-top: 80px;
+  }
+
+  .mainfooter {
+    padding: 70px 0 50px 0;
+    margin: 0 auto;
+    max-width: 1100px;
+    display: flex;
+}
+.foot_contact,.foocopyright{width: 50%;color: #4D2040;}
+  .contactbtn {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 40%;
+    height: 60px;
+    background: #F0BA9A;
+}
+.contactbtn a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
+  color: #fef6e4;
+}
+
+.foot_contact ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.foot_contact a {
+  padding-left: 0px;
+}
+.foot_contact ul a{
+  font-size: 22px;
+  color: #4D2040;
+}
+.foot_contact ul a:hover{color: #f58671;}
+.foocopyright {
+  text-align: right;
+  line-height: 104px;
+}
+  /*修正icon錯誤*/
+  .foot_contact ul li .fa-linkedin:before{content: "\f08c";}

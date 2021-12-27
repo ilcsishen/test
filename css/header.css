@@ -1,0 +1,100 @@
+#head{width: 100%;height:0;margin: 0;
+    position: relative;}
+
+.head_inner{max-width:1100px; margin: 0 auto;background: #eee;position: relative;
+    top: 20px;border-radius: 50px;display: flex;z-index: 999;height: 60px;}
+.head_inner a{color:#333;position: relative;}
+.head_inner a:hover{color:#dd602d;}
+.head_inner a:first-child:before , .head_inner a:last-child:before{
+  content: "";
+}
+.head_inner .menu ul li a:before {
+  content: "|";
+  position: absolute;
+  right: -5px;
+  color: #ccc;
+}
+
+.menu ul{display: flex;flex-direction: row;list-style: none;}
+.menu ul li{padding: 5px;
+  line-height: 36px;}
+
+#logo a {
+    display: block;
+    padding: 10px 20px 10px 30px;
+}
+#logo a img {
+  width: 40px;
+  height: auto;
+}
+
+/*首頁*/
+div#indexfor_main {
+    padding-top: 0;
+}
+div#for_main {
+  padding-top: 110px;
+  max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+
+body{
+      margin:0;
+      width:100%;
+        background:#ffffff;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+  }
+  header{
+      width:100%;
+  }
+  .hamburger{
+    background:none;
+    position:absolute;
+    top:0;
+    right:0;
+    line-height:45px;
+    padding:5px 15px 0px 15px;
+    color:#999;
+    border:0;
+    font-size:1.4em;
+    font-weight:bold;
+    cursor:pointer;
+    outline:none;
+    z-index:10000000000000;
+  }
+  .cross{
+    background:none;
+    position:absolute;
+    top:0px;
+    right:0;
+    padding:7px 15px 0px 15px;
+    color:#999;
+    border:0;
+    font-size:3em;
+    line-height:65px;
+    font-weight:bold;
+    cursor:pointer;
+    outline:none;
+    z-index:10000000000000;
+  }
+  .ham_menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#f1f1f1;  position:absolute; text-align:center; font-size:12px;}
+  .ham_menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+  .ham_menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+  .ham_menu li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+  .ham_menu ul li a { text-decoration:none;  margin: 0px; color:#666;}
+  .ham_menu ul li a:hover {  color: #666; text-decoration:none;}
+  .ham_menu a{text-decoration:none; color:#666;}
+  .ham_menu a:hover{text-decoration:none; color:#666;}
+  
+  .glyphicon-home{
+    color:white; 
+    font-size:1.5em; 
+    margin-top:5px; 
+    margin:0 auto;
+  }
+
+  span{padding-left:20px;}
+  /* a{color:#336699;} */
